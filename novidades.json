@@ -2,6 +2,18 @@
   "_leia": "Histórico de versões, a MAIS NOVA primeiro. A 1ª entrada é a versão deste código; o aviso 'Atualização disponível' (menu > card Gestão) compara ela com a do master no GitHub. Toda publicação ganha uma entrada nova aqui em cima.",
   "versoes": [
     {
+      "versao": "2026-09-18-revestimentos-quantitativo",
+      "data": "18/09/2026",
+      "titulo": "Revestimentos: cômodos do IFC e quantitativo",
+      "itens": [
+        "Cômodos, portas e janelas vêm do IFC arquitetônico; área externa desenhada à mão",
+        "Piso e rodapé automático por cômodo; paredes uma a uma, em faixas de altura",
+        "Fachadas parede por parede, com faixas de material e vãos",
+        "Base de dados de materiais da empresa, com valores próprios por obra",
+        "Tabelas de parede, piso e rodapé, argamassa, rejunte, espaçadores, clips e cunhas"
+      ]
+    },
+    {
       "versao": "2026-09-18-senha-gestor",
       "data": "18/09/2026",
       "titulo": "Senha do gestor e aviso de atualização",
