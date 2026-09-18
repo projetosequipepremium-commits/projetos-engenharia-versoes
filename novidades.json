@@ -1,0 +1,78 @@
+{
+  "_leia": "Histórico de versões, a MAIS NOVA primeiro. A 1ª entrada é a versão deste código; o aviso 'Atualização disponível' (menu > card Gestão) compara ela com a do master no GitHub. Toda publicação ganha uma entrada nova aqui em cima.",
+  "versoes": [
+    {
+      "versao": "2026-09-18-instalacao-pelo-cliente",
+      "data": "18/09/2026",
+      "titulo": "Instalação pelo próprio cliente",
+      "itens": [
+        "O cliente instala o app sozinho, nas contas dele (guia COMO INSTALAR)",
+        "Primeiro acesso: a tela de login cria o usuário gestor",
+        "Chave secreta e pasta de arquivos do Supabase criadas sozinhas na instalação",
+        "Instalador único do app local, sem senha dentro, com código gerado em Gestão › Sistema",
+        "Aviso de atualização lê um canal público de novidades"
+      ]
+    },
+    {
+      "versao": "2026-09-18-app-local",
+      "data": "18/09/2026",
+      "titulo": "App local no computador do escritório",
+      "itens": [
+        "Instalador do app local (um .exe com tudo: Python, app e configuração)",
+        "O instalador pergunta o nome da empresa e a pasta, e cria dois atalhos na Área de Trabalho: app local e app online",
+        "Gestão › Sistema mostra o online e o computador do escritório, cada um com seu botão de atualizar",
+        "O app local se atualiza baixando a versão do online e volta sozinho se a nova não subir",
+        "Horários salvos pelo online agora no horário de Brasília"
+      ]
+    },
+    {
+      "versao": "2026-09-18-teste-atualizacao",
+      "data": "18/09/2026",
+      "titulo": "Teste do botão de atualização",
+      "itens": [
+        "Card Gestão do menu passa a descrever as abas novas: obras, usuários, empresa e sistema",
+        "Primeira versão instalada pelo botão \"Atualizar agora\""
+      ]
+    },
+    {
+      "versao": "2026-09-18-empresa-atualizacoes",
+      "data": "18/09/2026",
+      "titulo": "Identidade da empresa e aviso de atualização",
+      "itens": [
+        "Gestão ganhou a aba 🏢 Empresa: nome, logo das pranchas e dados fixos do carimbo",
+        "Gestão ganhou a aba ⚙️ Sistema: atualização do app e endereços de acesso para mandar à equipe",
+        "Aviso de atualização disponível no card Gestão do menu",
+        "Tela Gestão também abre no uso local do app"
+      ]
+    },
+    {
+      "versao": "premium-2026-09-18-base-dados-muros",
+      "data": "18/09/2026",
+      "titulo": "Base de dados do Muros",
+      "itens": [
+        "Muros: 🗄️ Base de dados com padrões e custos da empresa; cada obra pode ter valores próprios",
+        "Fôrma (tábua + prego) por m² de muro e perfuração por unidade de estaca",
+        "Orçamento com subtotais de aterro, materiais e mão de obra",
+        "Lembretes do menu em tópicos"
+      ]
+    },
+    {
+      "versao": "premium-2026-09-18-forma-lembretes",
+      "data": "18/09/2026",
+      "titulo": "Fôrma e lembretes",
+      "itens": [
+        "Muros: fôrma com tábua de pinus e prego no levantamento e no orçamento",
+        "Menu: caixinha de lembretes por usuário"
+      ]
+    },
+    {
+      "versao": "premium-2026-09-16-alvenaria-aco-barra",
+      "data": "16/09/2026",
+      "titulo": "Alvenaria e aço por barra",
+      "itens": [
+        "Muros: alvenaria entre vigas e pilares no levantamento e no orçamento",
+        "Aço CA-50 e CA-60 cobrado por barra de 12 m"
+      ]
+    }
+  ]
+}
