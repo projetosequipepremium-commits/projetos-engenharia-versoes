@@ -2,6 +2,8 @@
 
 Você mesmo instala o app, em contas **suas**, e os seus dados ficam só com você.
 
+> **Manual completo, com todos os detalhes:** [Manual-de-Instalacao.pdf](Manual-de-Instalacao.pdf). Este resumo é a versão curta.
+
 **O que você precisa:**
 - uns 30 minutos;
 - um e-mail da empresa;

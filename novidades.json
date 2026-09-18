@@ -2,6 +2,16 @@
   "_leia": "Histórico de versões, a MAIS NOVA primeiro. A 1ª entrada é a versão deste código; o aviso 'Atualização disponível' (menu > card Gestão) compara ela com a do master no GitHub. Toda publicação ganha uma entrada nova aqui em cima.",
   "versoes": [
     {
+      "versao": "2026-09-18-senha-gestor",
+      "data": "18/09/2026",
+      "titulo": "Senha do gestor e aviso de atualização",
+      "itens": [
+        "Esqueceu a senha do gestor: a variável REDEFINIR_GESTOR no Render define uma senha nova (ver o manual)",
+        "O aviso de atualização só aparece quando existe uma versão mais nova que a instalada",
+        "Manual de instalação em PDF para o cliente"
+      ]
+    },
+    {
       "versao": "2026-09-18-instalacao-pelo-cliente",
       "data": "18/09/2026",
       "titulo": "Instalação pelo próprio cliente",
