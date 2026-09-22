@@ -2,6 +2,17 @@
   "_leia": "Histórico de versões, a MAIS NOVA primeiro. A 1ª entrada é a versão deste código; o aviso 'Atualização disponível' (menu > card Gestão) compara ela com a do master no GitHub. Toda publicação ganha uma entrada nova aqui em cima.",
   "versoes": [
     {
+      "versao": "2026-09-22-instalacao-automatica",
+      "data": "22/09/2026",
+      "titulo": "Instalação automática",
+      "itens": [
+        "Instalador novo: com uma chave do Supabase e uma do Render, cria o banco, o app online e o gestor sozinho",
+        "Se der erro no meio, rodar o instalador de novo continua de onde parou",
+        "O Deploy Hook do Render pode ser colado em Gestão › Sistema para ativar o botão de atualizar",
+        "Manual de instalação novo, mais curto"
+      ]
+    },
+    {
       "versao": "2026-09-22-engenharia-entre-instalacoes",
       "data": "22/09/2026",
       "titulo": "Engenharia entre instalações",
