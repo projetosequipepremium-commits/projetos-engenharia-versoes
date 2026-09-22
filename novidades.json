@@ -2,6 +2,16 @@
   "_leia": "Histórico de versões, a MAIS NOVA primeiro. A 1ª entrada é a versão deste código; o aviso 'Atualização disponível' (menu > card Gestão) compara ela com a do master no GitHub. Toda publicação ganha uma entrada nova aqui em cima.",
   "versoes": [
     {
+      "versao": "2026-09-22-engenharia-entre-instalacoes",
+      "data": "22/09/2026",
+      "titulo": "Engenharia entre instalações",
+      "itens": [
+        "Gestão › Sistema: copia a aba Engenharia (normas, leis, POPs, notas, modelos e os PDFs) de outra instalação com um código",
+        "As obras, os usuários e os dados da empresa não vão junto",
+        "PDFs de leis municipais antigos voltam a abrir no online"
+      ]
+    },
+    {
       "versao": "2026-09-18-revestimentos-quantitativo",
       "data": "18/09/2026",
       "titulo": "Revestimentos: cômodos do IFC e quantitativo",
