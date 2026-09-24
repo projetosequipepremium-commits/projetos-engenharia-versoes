@@ -2,6 +2,20 @@
   "_leia": "Histórico de versões, a MAIS NOVA primeiro. A 1ª entrada é a versão deste código; o aviso 'Atualização disponível' (menu > card Gestão) compara ela com a do master no GitHub. Toda publicação ganha uma entrada nova aqui em cima.",
   "versoes": [
     {
+      "versao": "2026-09-24-muros-uniformes-e-imagens",
+      "data": "24/09/2026",
+      "titulo": "Muro uniforme, prancha dos revestimentos e imagens nos POPs",
+      "itens": [
+        "Muros: a viga superior sai inclinada acompanhando o desnível, em vez de escalonada vão a vão",
+        "Muros: botão \u201cMuro uniforme\u201d (Cálculo avançado) deixa o topo do muro em rampa reta de canto a canto",
+        "Muros: campo de deslocamento vertical, para o 3D dos muros casar com o IFC no Visualizador",
+        "Revestimentos: prancha A1 pronta para imprimir e exportar em DWG, com planta, vistas, fachadas, tabelas e carimbo",
+        "POPs e Anotações agora aceitam imagem (antes só a Lição Aprendida), com Ctrl+V para colar print",
+        "As imagens anexadas aparecem no próprio card do POP",
+        "Citação longa do POP volta a aparecer em texto corrido, num bloco só"
+      ]
+    },
+    {
       "versao": "2026-09-24-paginacao-e-dwg",
       "data": "24/09/2026",
       "titulo": "Paginação dos revestimentos e exportar prancha em DWG",
