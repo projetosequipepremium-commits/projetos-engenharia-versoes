@@ -2,12 +2,33 @@
   "_leia": "Histórico de versões, a MAIS NOVA primeiro. A 1ª entrada é a versão deste código; o aviso 'Atualização disponível' (menu > card Gestão) compara ela com a do master no GitHub. Toda publicação ganha uma entrada nova aqui em cima.",
   "versoes": [
     {
+      "versao": "2026-09-30-pilares-prancha-e-visualizadores",
+      "data": "30/09/2026",
+      "titulo": "Editor de pilares, prancha em 3 folhas e ocultar no 3D",
+      "itens": [
+        "Muros: a viga baldrame também sai inclinada acompanhando o desnível — não fica mais solta do pilar",
+        "Muros: rampa de acesso da rua — informe o recuo frontal e o nível da obra e o terreno sobe em rampa da rua até a construção",
+        "Muros: a viga intermediária aparece no corte pela mesma regra do 3D e do quantitativo",
+        "Muros: ajuste a vista no 3D e clique em “Usar esta vista na prancha” para levá-la para a prancha",
+        "Muros: duas folhas novas na prancha — a planta baixa ocupando a folha inteira e os cortes ocupando a folha inteira",
+        "Muros: corrigida a prancha que se desconfigurava na hora de imprimir",
+        "Muros: editor de pilares — edite todas as cotas, exclua ou acrescente pilar e ajuste o espaçamento",
+        "Muros: espaçamento por muro — distribua os pilares igualmente num lado só, mantendo a quantidade atual",
+        "Muros: a cota intermediária não obriga mais um pilar naquele ponto, então os vãos saem iguais",
+        "Visualizadores 3D: clique num elemento para ocultá-lo; “Mostrar ocultos” devolve todos",
+        "Visualizador IFC: filtro das partes do muro (pilares, vigas, painéis)",
+        "Visualizadores 3D: os ambientes do IFC entram escondidos; o botão “Ambientes” mostra e esconde",
+        "Gestão › Obras: botão para renomear a obra — os modelos IFC, o checklist e os demais dados continuam no lugar",
+        "Gestão › Sistema: se a instalação de origem for antiga demais para a cópia da Engenharia, o app diz em que versão ela está"
+      ]
+    },
+    {
       "versao": "2026-09-24-muros-uniformes-e-imagens",
       "data": "24/09/2026",
       "titulo": "Muro uniforme, prancha dos revestimentos e imagens nos POPs",
       "itens": [
         "Muros: a viga superior sai inclinada acompanhando o desnível, em vez de escalonada vão a vão",
-        "Muros: botão \u201cMuro uniforme\u201d (Cálculo avançado) deixa o topo do muro em rampa reta de canto a canto",
+        "Muros: botão “Muro uniforme” (Cálculo avançado) deixa o topo do muro em rampa reta de canto a canto",
         "Muros: campo de deslocamento vertical, para o 3D dos muros casar com o IFC no Visualizador",
         "Revestimentos: prancha A1 pronta para imprimir e exportar em DWG, com planta, vistas, fachadas, tabelas e carimbo",
         "POPs e Anotações agora aceitam imagem (antes só a Lição Aprendida), com Ctrl+V para colar print",
