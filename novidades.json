@@ -2,6 +2,16 @@
   "_leia": "Histórico de versões, a MAIS NOVA primeiro. A 1ª entrada é a versão deste código; o aviso 'Atualização disponível' (menu > card Gestão) compara ela com a do master no GitHub. Toda publicação ganha uma entrada nova aqui em cima.",
   "versoes": [
     {
+      "versao": "2026-10-16c-reboco-e-agregados-por-metragem",
+      "data": "16/10/2026",
+      "titulo": "Orçamento do muro: reboco, argamassa, areia e pedrisco pela metragem",
+      "itens": [
+        "Muros: cimento, areia grossa, areia média e pedrisco (reboco, argamassa e demais usos além do concreto usinado) agora são calculados pela área de muro e entram no orçamento, na matriz por escopo e grupo e no resumo de compra",
+        "Muros: o consumo de cada um fica em ⚙️ Padrões construtivos (\"Reboco, argamassa e demais usos\") e o preço em 💰 Custos padrão — valores iniciais calculados com a obra Paris; ajuste na Base de dados para valer em todas as obras (zere o consumo se a obra não usa)",
+        "Muros: na sub-aba Real × estimado, esses itens passam a ser comparados com o que o CBC lançou"
+      ]
+    },
+    {
       "versao": "2026-10-16b-itens-por-metragem-de-muro",
       "data": "16/10/2026",
       "titulo": "Orçamento do muro: arame, lona, impermeabilizante e escavadeira pela metragem",
