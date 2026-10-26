@@ -2,6 +2,63 @@
   "_leia": "Histórico de versões, a MAIS NOVA primeiro. A 1ª entrada é a versão deste código; o aviso 'Atualização disponível' (menu > card Gestão) compara ela com a do master no GitHub. Toda publicação ganha uma entrada nova aqui em cima.",
   "versoes": [
     {
+      "versao": "2026-10-28-prancha-livre-e-mao-francesa",
+      "data": "28/10/2026",
+      "titulo": "Prancha com layout livre, mão francesa redesenhada e acabamentos do muro simples",
+      "itens": [
+        "Prancha: \"Layout livre\" — cada vista (planta, cortes, detalhamentos e resumo de aço) vira um bloco que se arrasta pra qualquer lugar da folha e se escala pelo cantinho laranja, como no Revit; \"↺ Layout automático\" volta ao encaixe de sempre. O nome de cada vista fica dentro da caixa e anda junto",
+        "Prancha: a caixa da planta tem só o tamanho do desenho",
+        "Detalhamento da mão francesa: a escora virou uma peça de concreto que encosta no pilar, o aterro é hachurado até o muro e a viga intermediária aparece deitada (15 de altura por 30 de largura), alinhada com a face do pilar",
+        "Muro simples: hachura diagonal suave (igual à da contenção) no corte combinado e na prancha",
+        "3D dos Muros: os pilares de canto também sobem com o muro simples"
+      ]
+    },
+    {
+      "versao": "2026-10-27b-muro-simples-3d-e-vao-por-pilar-fixo",
+      "data": "27/10/2026",
+      "titulo": "Muros: muro simples no 3D, vão da casa pelos pilares fixos e vigas mais visíveis",
+      "itens": [
+        "3D dos Muros: o muro simples aparece (painel, extensão dos pilares e cinta no topo), com caixinha para ligar/desligar; a viga superior nivelada também",
+        "Vão da casa: marque 🏠 num pilar fixo e o trecho até o próximo pilar fixo vira vão da casa automático — sem pilares do muro no meio, sem muro simples e sem a contenção acima do nível de projeto (abaixo continua como estava). Vãos que se tocam viram um só",
+        "Cortes e prancha: a viga baldrame e a viga superior agora são linhas contínuas, tão visíveis quanto as intermediárias; a viga superior nivelada vale por trecho de muro simples e a inclinada não aparece onde ela é a reta",
+        "Grade e eixos começam desligados nos visualizadores (IFC, Materiais, Checklist e 3D dos Muros); o botão Grade liga"
+      ]
+    },
+    {
+      "versao": "2026-10-27-vao-da-casa-e-muro-simples",
+      "data": "27/10/2026",
+      "titulo": "Muros: vão da casa na divisa, altura acima do projeto e ajustes do muro simples",
+      "itens": [
+        "Vão da casa na divisa (Cálculo avançado): cadastre de quantos a quantos metros a casa ocupa a divisa, contando a partir da rua. Nesse trecho o muro abre um vão do nível de projeto pra cima — some o muro simples e a contenção em corte; abaixo do nível de projeto (estacas, embutimento, baldrame e contenção de aterro) continua como estava. O visualizador IFC segue a mesma regra",
+        "Muro simples: nova opção \"Acima do projeto (m)\" — informe a altura final em relação ao nível de projeto (1 = 1 m mais alto) além de altura e cota final; aceita cotas intermediárias, inclinadas ou por trecho",
+        "Muro simples: a viga superior pode ficar nivelada (reta na maior cota do topo da contenção do lado) — é só o desenho; a contenção continua sendo só a parte contida e o que sobe dali é muro simples",
+        "Muro simples: não tem viga intermediária (só pilar, alvenaria e cinta no topo)",
+        "Corte combinado e prancha: o número em cima de cada pilar é a altura total (contenção + muro simples)",
+        "Nível da obra (fim da rampa): por padrão segue o nível de projeto; o campo só precisa ser preenchido se a obra ficar em outro nível"
+      ]
+    },
+    {
+      "versao": "2026-10-26-muro-simples-cota-final-e-orcamento",
+      "data": "26/10/2026",
+      "titulo": "Muros: muro simples por cota final, por trecho, na prancha e no orçamento",
+      "itens": [
+        "Muro simples: cada lado pode ser informado por altura ou por COTA FINAL — a contenção vai até onde há corte/aterro e o muro simples completa até a cota; aceita cotas intermediárias, inclinadas ou por trecho (degraus)",
+        "Muro simples: corrigido um defeito antigo — a aba nunca desenhava o muro (a altura saía sempre 0 porque o lado era procurado pelo nome e guardado pelo código)",
+        "Prancha: nova opção \"Imprimir com muro simples\" — os cortes da prancha e da impressão saem com a contenção + o muro simples",
+        "Insumos e custos: seletor Total / Só contenção / Só muro simples em Materiais, Orçamento, Resumo de compra e no orçamento do Cálculo. O muro simples (pilar que continua, alvenaria e cinta) tem quantitativo e custo próprios; obras que já tinham altura de muro simples digitada passam a ter esse custo no Total. Real × estimado é sempre do total",
+        "Detalhamento da broca/estaca: gaiola na escala real do diâmetro e com as cotas (Ø, largura e altura da gaiola); a largura e a altura viram padrões editáveis (7×22 cm na broca de 30)"
+      ]
+    },
+    {
+      "versao": "2026-10-20-nivel-obra-segue-projeto",
+      "data": "20/10/2026",
+      "titulo": "Muros: o fim da rampa segue o nível de projeto",
+      "itens": [
+        "Muros: o \"Nível da obra (fim da rampa)\" agora segue por padrão o mesmo nível de projeto — o campo mostra o valor que está valendo e só precisa ser preenchido se a obra ficar em outro nível",
+        "Muros: quando o nível da obra tem valor próprio o campo fica âmbar, com o botão ↺ para voltar a seguir o nível de projeto (antes um valor antigo diferente deixava a aba Cálculo e o Cálculo avançado com alturas de muro diferentes, sem aviso)"
+      ]
+    },
+    {
       "versao": "2026-10-16c-reboco-e-agregados-por-metragem",
       "data": "16/10/2026",
       "titulo": "Orçamento do muro: reboco, argamassa, areia e pedrisco pela metragem",
