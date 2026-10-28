@@ -2,6 +2,44 @@
   "_leia": "Histórico de versões, a MAIS NOVA primeiro. A 1ª entrada é a versão deste código; o aviso 'Atualização disponível' (menu > card Gestão) compara ela com a do master no GitHub. Toda publicação ganha uma entrada nova aqui em cima.",
   "versoes": [
     {
+      "versao": "2026-10-28d-auditoria-seguranca",
+      "data": "28/10/2026",
+      "titulo": "Auditoria do app: falha de segurança nos arquivos, login mais forte e rotas mais robustas",
+      "itens": [
+        "Segurança: no app local, um endereço montado à mão (com \"../\") em /foto-pop e rotas parecidas podia devolver arquivos de fora da pasta do app. Corrigido — o servidor agora recusa qualquer caminho que saia da pasta de arquivos. No online (Render) isso não era possível",
+        "Login: bloqueio de 10 minutos depois de 8 senhas erradas (por IP e usuário), o endereço pós-login só aceita páginas do próprio app (antes redirecionava para qualquer site), cookie de sessão com SameSite e, no Render, só em https, e cabeçalhos de segurança nas respostas",
+        "Permissões: quem não é gestor, mas tem acesso a Muros, Escoramento ou Revestimentos, não conseguia abrir nem gravar o selo/carimbo da obra (erro 403). Agora consegue, conforme o nível do módulo",
+        "Robustez: 33 rotas da API devolviam erro 500 quando recebiam um corpo que não era um objeto JSON (ou campos com tipo trocado); agora respondem com 400 e mensagem clara",
+        "A imagem da fachada não viaja mais na lista de obras (que carrega em toda tela) — só quando a prancha é montada, então as telas não ficam mais pesadas com várias fotos",
+        "Documentação atualizada: porta 5027 do app local, folha A1 841×594 mm nos comentários e o endereço do escritório"
+      ]
+    },
+    {
+      "versao": "2026-10-28c-selo-padrao-revit",
+      "data": "28/10/2026",
+      "titulo": "Selo das pranchas no padrão Revit (Alan Arquivo Revit Padrão), com imagem da fachada",
+      "itens": [
+        "Pranchas (Muros, Escoramento e Revestimentos): o selo foi refeito igual ao \"Alan Arquivo Revit Padrão\" — 175,02 × 287,03 mm no canto inferior direito, com identificação da obra, endereço, dados técnicos, aprovações e assinaturas, responsável técnico e prancha, nas mesmas medidas, fonte (Arial Narrow) e cores do PDF",
+        "Imagem da fachada: clique no espaço \"IMAGEM DA FACHADA\" do selo (ou use Gestão > Selo da prancha) para subir a foto; clique de novo troca e o botão direito remove. Ela fica no cadastro da obra e aparece nas três pranchas e na impressão",
+        "Campos novos no selo: CEP, área do terreno e 2º proprietário/aprovador (nome e CPF). Prefeitura e blocos construídos saíram do selo, e a esquina sai junto da rua. O número da prancha agora é só \"01\", como no modelo",
+        "A data/hora e o \"Projetista\" saem numa faixa de 7 mm reservada na moldura, e a impressão não encolhe mais a folha",
+        "O selo imprime as cores e as linhas finas mesmo com \"Gráficos de segundo plano\" desmarcado no diálogo de impressão",
+        "O filete interno da moldura passou a 0,7 mm, como no modelo, e a exportação para DWG continua funcionando com o selo novo",
+        "Para o logo sair idêntico ao do modelo (\"EMPREENDIMENTOS\"), basta trocá-lo em Gestão > Empresa"
+      ]
+    },
+    {
+      "versao": "2026-10-28b-pranchas-a1-e-muro-simples-nos-visualizadores",
+      "data": "28/10/2026",
+      "titulo": "Pranchas em A1 de verdade (841×594), impressões A4 corrigidas e muro simples nos visualizadores IFC",
+      "itens": [
+        "Pranchas (Muros, Escoramento e Revestimentos): a folha passou de 840×590 mm para A1 ISO, 841×594 mm (área útil 806×574 mm), e a moldura agora preenche a folha inteira, com o carimbo no pé — antes terminava 12 a 47 mm acima",
+        "Impressões simples (planta de escoramento e quantitativos de revestimentos) voltaram a sair em A4: o tamanho da página era sobrescrito pelo da prancha e elas saíam em A1",
+        "Visualizadores IFC (Visualizador, Materiais e Checklist): o muro simples aparece no 3D dos muros, com botão ▮ Simples para ligar e desligar",
+        "O limite de 1 folha da prévia passou a 574 mm úteis"
+      ]
+    },
+    {
       "versao": "2026-10-28-prancha-livre-e-mao-francesa",
       "data": "28/10/2026",
       "titulo": "Prancha com layout livre, mão francesa redesenhada e acabamentos do muro simples",
