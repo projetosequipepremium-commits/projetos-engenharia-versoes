@@ -2,6 +2,16 @@
   "_leia": "Histórico de versões, a MAIS NOVA primeiro. A 1ª entrada é a versão deste código; o aviso 'Atualização disponível' (menu > card Gestão) compara ela com a do master no GitHub. Toda publicação ganha uma entrada nova aqui em cima.",
   "versoes": [
     {
+      "versao": "2026-11-09-caminhar-e-pontos-criticos",
+      "data": "09/11/2026",
+      "titulo": "Caminhar dentro do modelo no Checklist IFC, portas que abrem e caixinha de pontos críticos",
+      "itens": [
+        "Checklist IFC: botão \"🚶 Caminhar\" para andar dentro do modelo em escala real, no computador (WASD ou setas) e no celular (joystick). Parede, pilar, janela e guarda-corpo bloqueiam, porta deixa passar e o piso é acompanhado. Precisa do modelo arquitetônico visível",
+        "Modo caminhar: clique na porta para abrir e fechar. Porta de abrir gira na dobradiça e porta de correr desliza. Tecla T mostra o boneco, duplo clique no piso leva até o ponto e Esc sai. Ao sair, o modelo volta como estava",
+        "Menu principal: a caixinha de Lembretes agora tem duas abas, 📝 Lembretes e 🚨 Pontos críticos, cada uma com a sua lista. Os lembretes já escritos continuam lá"
+      ]
+    },
+    {
       "versao": "2026-10-28d-auditoria-seguranca",
       "data": "28/10/2026",
       "titulo": "Auditoria do app: falha de segurança nos arquivos, login mais forte e rotas mais robustas",
